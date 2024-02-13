@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MacFinder - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x429 /fo"Debug/MacFinder.res" /d "_DEBUG" /d "_AFXDLL" "E:\My Codes\Visual Studio 6 Project\MacFinder\MacFinder.rc"" 
+Creating temporary file "C:\DOCUME~1\Hamed\LOCALS~1\Temp\RSP7F.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/MacFinder.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\My Codes\Visual Studio 6 Project\MacFinder\MacFinder.cpp"
+"E:\My Codes\Visual Studio 6 Project\MacFinder\MacFinderDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Hamed\LOCALS~1\Temp\RSP7F.tmp" 
+Creating temporary file "C:\DOCUME~1\Hamed\LOCALS~1\Temp\RSP80.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/MacFinder.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\My Codes\Visual Studio 6 Project\MacFinder\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Hamed\LOCALS~1\Temp\RSP80.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/MacFinder.pdb" /debug /machine:I386 /out:"Debug/MacFinder.exe" /pdbtype:sept  ".\Debug\MacFinder.obj" ".\Debug\MacFinderDlg.obj" ".\Debug\StdAfx.obj" ".\Debug\MacFinder.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+MacFinder.cpp
+MacFinderDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+MacFinder.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
